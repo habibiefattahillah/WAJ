@@ -3,7 +3,8 @@
 # Identifikasi Kernel
 
 Kernel adalah komponen fundamental dari suatu Operating System (OS) yang beroperasi sebagai penghubung antara aplikasi software dan komponen hardware komputer. Kernel bertanggung jawab untuk mengatur sumber daya sistem seperti CPU, Memory, I/O Devices, dan Network Connection dan memberikan akses low level ke bagian lain dari OS seperti system services dan aplikasi user, juga menjaga keamanan sistem dengan mengatur akun user dan permissions.  
-[![uname -a](https://i.postimg.cc/YSwwzTG8/image-2023-03-09-001419983.png)](https://postimg.cc/jDv9sghJ)Terlihat versi kernel 5.10.0-8-amd64
+[![uname -a](https://i.postimg.cc/YSwwzTG8/image-2023-03-09-001419983.png)](https://postimg.cc/jDv9sghJ)  
+Terlihat versi kernel 5.10.0-8-amd64
 
 # Identifikasi Struktur Direktori
 
@@ -24,7 +25,7 @@ Kernel adalah komponen fundamental dari suatu Operating System (OS) yang beroper
 
 Singkatan dari **"switchuser"** atau **"superuser"** yang memperbolehkan user untuk secara sementara menggunakan identitas user lain atau menjadi superuser apabila tidak diinputkan user.
 
-Penggunaan `su` dapat digunakan dengan `su` atau dengan `su -`.
+Penggunaan `su` dapat digunakan dengan `su` atau dengan `su -`.  
 [![su command](https://i.postimg.cc/kG9xqJpz/image-2023-03-09-003826630.png)](https://postimg.cc/7GsCNkDn)
 
 - `su`: Saat berganti user, menyimpan environment variables dan settings dari user asli.
@@ -36,7 +37,7 @@ Kepanjangan dari **"superuser do"**. Memperolehkan user untuk menjalankan comman
 
 Menggunakan "sudo" lebih aman daripada menggunakan superuser karena system administrator dapat mengatur siapa yang dapat menggunakan sudo dan akan menyimpan record command-command yang digunakan dan oleh siapa.
 
-Untuk demonstrasi, dibuat user baru "test1" dengan command `adduser username` di superuser.
+Untuk demonstrasi, dibuat user baru "test1" dengan command `adduser username` di superuser.  
 [![adduser](https://i.postimg.cc/N0CJszqB/image-2023-03-09-004825621.png)](https://postimg.cc/Z93Fjj5M)
 
 lalu menggunakan command `usermod -aG sudo username` untuk memasukkan user ke grup sudo.
@@ -50,8 +51,8 @@ Dapat dilihat, ketika user "test1" ingin menjalankan command `apt install ssh`, 
 
 # Identifikasi Perintah apt
 
-`apt --help`
-[![apt --help](https://i.postimg.cc/dVyrkNyJ/image-2023-03-09-005518896.png)](https://postimg.cc/yD7k2PjG)
+`apt --help`  
+[![apt --help](https://i.postimg.cc/dVyrkNyJ/image-2023-03-09-005518896.png)](https://postimg.cc/yD7k2PjG)  
 apt adalah commandline package manager yang menyediakan command-command untuk mencari dan mengatur paket.
 
 Perintah paling sering digunakan:
