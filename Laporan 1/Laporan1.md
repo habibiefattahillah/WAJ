@@ -3,5 +3,5 @@
 [![adduser](https://i.postimg.cc/N0CJszqB/image-2023-03-09-004825621.png)](https://postimg.cc/Z93Fjj5M)  
 [![su command](https://i.postimg.cc/kG9xqJpz/image-2023-03-09-003826630.png)](https://postimg.cc/7GsCNkDn)  
 [![sudo test](https://i.postimg.cc/DwyR7sJQ/image-2023-03-09-005206538.png)](https://postimg.cc/tYwB5sz7)  
-[![cat /etc/apt/sources.list](https://i.postimg.cc/BZmxdK3f/image-2023-03-09-005450874.png)](https://postimg.cc/kDt6SDDT)  
+[![cat /etc/apt/sources.list](https://i.postimg.cc/xdGsH1zj/image.png)](https://postimg.cc/4KdbRZPj)  
 [![apt --help](https://i.postimg.cc/dVyrkNyJ/image-2023-03-09-005518896.png)](https://postimg.cc/yD7k2PjG)
